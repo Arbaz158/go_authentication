@@ -1,0 +1,13 @@
+1.configure your github account using below credentials
+  a> git config --global user.name "user_name"
+  b> git config --global user.email "user_email"
+2.Clone command - clone command is used to pull repositories or projects from github to your local machine.
+  Ex :- git clone some_url
+3.Status - status command is used to check the current status of the repository.
+  Ex :- git status  
+4.Add command - add command is used to add new untracked files or modified files to the git repository.
+  Ex :- git add <file_name>  
+5.Commit command - commit command is used to commit/add the staged files to the github repository.
+  Ex :- git commit -m "some message"
+Still these new files won't be affected on github so we need to execute below command .
+  Ex :- git push origin main    

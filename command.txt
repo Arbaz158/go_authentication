@@ -11,3 +11,36 @@
   Ex :- git commit -m "some message"
 Still these new files won't be affected on github so we need to execute below command .
   Ex :- git push origin main    
+6.Init Command - git init command is used to make a normal directory into github directory.
+  Ex :- git init
+7.git remote add origin command - it is used to add a origin on github server from client.
+  Ex :- git remote add origin https://github.com/Arbaz158/localrepo.git
+8.git remote command - it is used to verify the origin.
+  Ex :- git remote -v 
+9.git branch command - it is used to check the branch
+  Ex :- git branch
+10.git branch -M command - to rename the branch name 
+  Ex :- git branch -M main
+11.git checkout command - checkout command is used to navigate the branch
+  Ex :- git checkout <branch_name>
+12.git checkout -b command - to create new branch 
+  Ex :- git checkout -b <new branch name>
+13.git branch -d command :- to delete branch
+  Ex :- git branch -d <branch name>
+14.git diff command - used to check difference between two branches
+  Ex :- git diff <branch name> 
+15.git merge command - used to merge one branch with another
+  Ex :- git merge <branch name>
+// while merging two branches there might be conflict error , to resolve this issue manually we remove
+few lines of code in that file
+16.git pull command - used to get the changes of github server on local machine
+  Ex :- git pull origin <branch name>
+17.git reset command - to reset staged files
+  Ex :- git reset <file name>//for single file
+  Ex :- git reset //for multiple files
+18.reset on files after committed 
+  Ex :- git reset HEAD~1 //for one commit
+  Ex :- git reset <commit hash> // as after every commit there is hash generated
+  Ex :- git reset --hard <commit hash> // reset content from file on github server as well as on local
+19.git log command - to get the history of all commits
+ 
